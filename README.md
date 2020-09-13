@@ -5,6 +5,13 @@ An online markdown editor allows users to write and share markdown anywhere.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Contributor:
+Levana He
+Mark Wu
+Jia Ming Wu
+YiWei Ma
+Hermia Tian
+
 ## Available Scripts
 
 In the project directory, you can run:
