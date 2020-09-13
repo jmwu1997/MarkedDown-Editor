@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+.about-page {
+    padding: 30px;
+    background: beige;
+}
+
+.mainText{
+    font-family: Arial Rounded MT Bold;
+}
+
+.about-content{
+    color: rgb(137, 139, 143);
+}
+
+.about-list li{
+    text-align: left;
+}
+
+.keyshort{
+    margin-top: 40px;
+}

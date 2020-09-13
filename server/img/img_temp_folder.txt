@@ -1,0 +1,2 @@
+This is the temp folder of image uplaod
+Image will be cleaned up after upload to sm.ms

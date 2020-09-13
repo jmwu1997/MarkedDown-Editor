@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="/create" method="post">
+            <input type="text" name="filename"/>
+            <textarea name="text" id="text"></textarea>
+            <div class="btn">
+                <input type="submit" value="create">
+            </div>
+        </form>
+        <br>
+        <form action="/find" method="post">
+            <input type="filename" name="filename"/>
+            <div class="btn">
+                <input type="submit" value="find">
+            </div>
+        </form>
+    </body>
+</html>

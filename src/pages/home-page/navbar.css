@@ -1,0 +1,34 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(101, 101, 101, 0.8);
+    text-align: center;
+}
+
+.navbar-item {
+    float: right;
+}
+
+.navbar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.markdown {
+    float: left;
+    color: white;
+    padding-top: 4px;
+    font-weight:bold;
+    font-size: large;
+    font-size: 36px;
+    font-family: 'Impact', sans-serif;
+}

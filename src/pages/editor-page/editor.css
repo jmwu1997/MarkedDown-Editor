@@ -1,0 +1,134 @@
+.filename {
+    background-color: ghostwhite;
+}
+
+.leftSideTextBox {
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    width: 49%;
+    padding: 13px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: ghostwhite;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 800px;
+}
+
+.rightSideTextBox {
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    width: 49%;
+    background-color: ghostwhite;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+#title {
+    background-color: lightyellow;
+    font-size: 14px;
+}
+
+fieldset {
+    border-right: 1.5px solid black;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 800px;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    width: 99%;
+    height: 80%;
+}
+
+.nav-btn {
+    overflow: hidden;
+    top: 0;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.nav-btn li {
+    float: left;
+}
+
+#icon {
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: Arial Rounded MT Bold;
+    text-decoration: none;
+    border: none;
+    background-color: ghostwhite;
+    width: 40px;
+}
+
+#icon2 {
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: Arial Rounded MT Bold;
+    text-decoration: none;
+    background-color: ghostwhite;
+}
+
+#icon2:hover {
+    background-color: lightgrey;
+}
+
+#btn {
+    display: block;
+    font-weight: bold;
+    color: rgb(179, 41, 41);
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial Rounded MT Bold;
+    background-color: ghostwhite;
+    width: 150px;
+}
+
+#btn:hover:not(.active) {
+    background-color: rgb(34, 127, 181);
+}
+
+li.nav-dropdown {
+    display: inline-block;
+    position: static;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 82px;
+    z-index: 1;
+    background-color: ghostwhite;
+    font-family: Arial Rounded MT Bold;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#preview {
+    padding-left: 15px;
+    text-align: left;
+}
